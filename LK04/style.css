@@ -1,0 +1,159 @@
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body{
+background:#f4f6f8;
+color:#333;
+line-height:1.6;
+}
+
+/* HEADER */
+header{
+background:#00e1ff;
+color:rgb(0, 0, 0);
+text-align:center;
+padding:30px;
+}
+
+/* NAVBAR */
+nav{
+background:#00f2ff;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+}
+
+nav ul li{
+margin:10px 15px;
+}
+
+nav a{
+color:rgb(0, 0, 0);
+text-decoration:none;
+font-weight:bold;
+}
+
+/* MAIN */
+main{
+max-width:1100px;
+margin:auto;
+padding:30px;
+}
+
+/* SECTION */
+section{
+margin-bottom:40px;
+}
+
+/* PROFIL */
+#profil article{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+#profil img{
+border-radius:10px;
+}
+
+/* BIODATA CARD */
+#biodata article{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* SKILL FLEXBOX */
+#skill{
+display:flex;
+gap:20px;
+}
+
+#skill article{
+flex:1;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* FORM */
+form{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+input, textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+/* BUTTON */
+button{
+background:#00eaff;
+color:rgb(0, 0, 0);
+padding:10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2980b9;
+}
+
+/* FOOTER */
+footer{
+background:#00d5ff;
+color:rgb(0, 0, 0);
+text-align:center;
+padding:15px;
+}
+
+/* BREAKPOINT TABLET */
+@media (max-width:900px){
+
+#profil article{
+flex-direction:column;
+text-align:center;
+}
+
+#skill{
+flex-direction:column;
+}
+
+nav ul{
+flex-wrap:wrap;
+}
+
+}
+
+/* BREAKPOINT MOBILE */
+@media (max-width:500px){
+
+nav ul{
+flex-direction:column;
+align-items:center;
+}
+
+main{
+padding:20px;
+}
+
+}

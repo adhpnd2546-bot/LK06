@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../siakad"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Praktikum P Naseh"
+	}
+}
